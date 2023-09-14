@@ -1,0 +1,143 @@
+blob
+mark :1
+data 16
+anonymous blob 0
+blob
+mark :2
+data 16
+anonymous blob 1
+blob
+mark :3
+data 16
+anonymous blob 2
+blob
+mark :4
+data 16
+anonymous blob 3
+blob
+mark :5
+data 16
+anonymous blob 4
+blob
+mark :6
+data 16
+anonymous blob 5
+blob
+mark :7
+data 16
+anonymous blob 6
+blob
+mark :8
+data 16
+anonymous blob 7
+blob
+mark :9
+data 16
+anonymous blob 8
+blob
+mark :10
+data 16
+anonymous blob 9
+blob
+mark :11
+data 17
+anonymous blob 10
+blob
+mark :12
+data 17
+anonymous blob 11
+reset refs/heads/ref0
+commit refs/heads/ref0
+mark :13
+author User 1 <user1@example.com> 1694007447 +0700
+committer User 0 <user0@example.com> 1694007447 +0700
+data 16
+subject 0
+
+body
+M 100644 :1 path0
+M 100644 :2 path1
+M 100644 :3 path2
+M 100644 :4 path3
+M 100644 :1 path4/path0
+M 100644 :2 path4/path1
+M 100644 :5 path4/path3
+M 100644 :6 path5
+M 100644 :7 path6
+M 100644 :8 path7
+M 100644 :9 path8
+M 100644 :10 path9
+M 100644 :11 path10
+M 100644 :12 path11
+
+blob
+mark :14
+data 17
+anonymous blob 12
+commit refs/heads/ref0
+mark :15
+author User 1 <user1@example.com> 1694008207 +0700
+committer User 0 <user0@example.com> 1694008207 +0700
+data 16
+subject 1
+
+body
+from :13
+M 100644 :14 path4/path3
+
+blob
+mark :16
+data 17
+anonymous blob 13
+commit refs/heads/ref0
+mark :17
+author User 1 <user1@example.com> 1694008231 +0700
+committer User 0 <user0@example.com> 1694008231 +0700
+data 16
+subject 2
+
+body
+from :15
+M 100644 :16 path3
+
+blob
+mark :18
+data 17
+anonymous blob 14
+blob
+mark :19
+data 17
+anonymous blob 15
+blob
+mark :20
+data 17
+anonymous blob 16
+blob
+mark :21
+data 17
+anonymous blob 17
+blob
+mark :22
+data 17
+anonymous blob 18
+commit refs/heads/ref0
+mark :23
+author User 2 <user2@example.com> 1694009079 +0700
+committer User 0 <user0@example.com> 1694009079 +0700
+data 16
+subject 3
+
+body
+from :17
+M 100644 :18 path4/path12
+M 100644 :19 path4/path5
+M 100644 :7 path4/path6
+M 100644 :20 path4/path7
+M 100644 :21 path4/path8
+M 100644 :10 path4/path9
+M 100644 :11 path4/path10
+M 100644 :22 path4/path11
+
+reset refs/remotes/ref1/ref0
+from :23
+
